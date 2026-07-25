@@ -6,7 +6,9 @@ import Coin from "./pages/Coin/Coin";
 
 import {createBrowserRouter,RouterProvider, Outlet} from "react-router-dom";
 import Footer from "./components/Footer/Footer";
-
+import Features from "./pages/Features";
+import Blog from "./pages/Blog";
+import Pricing from "./pages/Pricing";
 
 const Layout = () => {
   return (
@@ -32,6 +34,19 @@ const router = createBrowserRouter([
         path: "coin/:coinId",
         element: <Coin />,
       },
+      {
+        path:"/features",
+        element:<Features/>
+      },
+      {
+        path:"/blog",
+        element:<Blog/>
+      },
+      {
+        path:"/pricing",
+        element:<Pricing/>
+      },
+      
     ],
   },
 ]);

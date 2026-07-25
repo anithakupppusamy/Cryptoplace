@@ -35,10 +35,10 @@ const Navbar = () => {
     <div className='navbar'>
       <Link to={'/'}> <img src={logo} className='logo' /></Link>
       <ul>
-        <Link to={'/'}><li>Home</li></Link>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Blog</li>
+        <Link to={'/'}>Home</Link>
+        <Link to="/features">Features</Link>
+        <Link to="/blog">Blog</Link>
+        <Link to="/pricing">Pricing</Link>
       </ul>
       <div className="nav-right">
         <select onChange={currencyHandler}>
