@@ -1,6 +1,9 @@
+import { APIKeys } from "@clerk/clerk-react";
 import { createContext, useEffect, useState } from "react";
 
 export const CoinContext = createContext();
+const apikey = import.meta.env.VITE_COINGECKO_API_KEY;
+
 
 const CoinContextProvider = (props) => {
 
@@ -15,7 +18,7 @@ const CoinContextProvider = (props) => {
         const options = {
             method: "GET",
             headers: {
-                "x-cg-api-key": "CG-T7D7sqra7kaiBY6woVBEhcvV",
+                "x-cg-api-key": apikey,
             },
         };
 

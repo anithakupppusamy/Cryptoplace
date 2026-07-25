@@ -10,11 +10,12 @@ const Coin = () => {
   const[historicalData, setHistoricalData] = useState();
   const {currency} = useContext(CoinContext);
 
+const apikey = import.meta.env.VITE_COINGECKO_API_KEY;
 const fetchCoinData = async () => { 
 const options = {
   method: "GET",
   headers: {
-    "x-cg-demo-api-key": "CG-T7D7sqra7kaiBY6woVBEhcvV",
+    "x-cg-demo-api-key": apikey,
   },
 };
 
@@ -28,7 +29,7 @@ const fetchHistoricalData = async () => {
   const options = {
   method: "GET",
   headers: {
-    "x-cg-demo-api-key": "CG-T7D7sqra7kaiBY6woVBEhcvV",
+    "x-cg-demo-api-key": apikey,
   },
 };
 
