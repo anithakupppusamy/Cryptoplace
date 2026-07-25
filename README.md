@@ -1,16 +1,125 @@
-# React + Vite
+# 🚀 CryptoPlace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoPlace is a modern cryptocurrency tracking web application built with **React** and **Vite**. It allows users to explore live cryptocurrency market data, search for coins, view detailed information, and securely authenticate using Clerk.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- 🔐 Secure Authentication (Clerk)
+- 📈 Live Cryptocurrency Market Data
+- 🔍 Search Cryptocurrencies
+- 💹 Detailed Coin Information
+- 🌍 Real-Time Data from CoinGecko API
+- 💱 Currency Selection
+- 📊 Coin Price, Market Cap & 24H Change
+- 📰 Blog Page
+- ⭐ Features Page
+- 💎 Pricing Page
+- 📱 Responsive Design
+- 🎨 Modern Dark UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- React Router DOM
+- Clerk Authentication
+- CoinGecko API
+- CSS3
+- JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│
+├── components
+│   └── Navbar
+│
+├── context
+│   └── CoinContext.jsx
+│
+├── pages
+│   ├── Home
+│   ├── Coin
+│   ├── Blog.jsx
+│   ├── Features.jsx
+│   ├── Pricing.jsx
+│   └── styles
+│       ├── Blog.css
+│       ├── Features.css
+│       └── Pricing.css
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/anithakupppusamy/Cryptoplace.git
+```
+
+### Navigate to the project
+
+```bash
+cd Cryptoplace
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_CLERK_PUBLISHABLE_KEY=YOUR_CLERK_PUBLISHABLE_KEY
+```
+
+---
+
+- 🏠 Home Page
+- 📊 Coin Details Page
+- ⭐ Features Page
+- 📰 Blog Page
+- 💎 Pricing Page
+- 🔐 Sign In Page
+
+---
+
+## 🚀 Future Enhancements
+
+- ❤️ Watchlist
+- 📈 Interactive Charts
+- 🔔 Price Alerts
+- 💼 Portfolio Management
+- 📱 Progressive Web App (PWA)
+- 🤖 AI-powered Market Insights
+
+---
+
+## 👩‍💻 Author
+
+GitHub: https://github.com/anithakupppusamy
