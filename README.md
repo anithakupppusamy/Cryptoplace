@@ -3,6 +3,9 @@
 CryptoPlace is a modern cryptocurrency tracking web application built with **React** and **Vite**. It allows users to explore live cryptocurrency market data, search for coins, view detailed information, and securely authenticate using Clerk.
 
 ---
+# 🚀 Live Demo
+
+https://cryptoplace-ten-phi.vercel.app/
 
 ## 📌 Features
 
