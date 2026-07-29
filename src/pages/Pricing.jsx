@@ -10,17 +10,8 @@ price:"₹0",
 desc:"Basic crypto tracking"
 },
 
-{
-name:"Pro",
-price:"₹499/month",
-desc:"Advanced analytics"
-},
 
-{
-name:"Premium",
-price:"₹999/month",
-desc:"Complete crypto tools"
-}
+
 
 ];
 
